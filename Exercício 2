@@ -1,0 +1,26 @@
+/*===============================Exercício 2 ===============================
+ Proposta:
+ Desenvolver um programa simulando um site que pode para o usuário responder 3 perguntas:
+
+- Qual o seu nome?
+- Quantos anos você tem?
+- Qual linguagem de programação você está estudando? 
+
+À medida que as perguntas forem sendo feitas, a pessoa que estiver usando o programa deve responder cada uma delas.
+No final, o sistema vai exibir a mensagem:
+
+"Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!"
+==============================================================================*/
+const nome = prompt("Qual é o seu nome?");
+const idade = prompt("Qual é a sua idade?");
+const linguagem = prompt("Qual linguagem de programação você está estudando?");
+const resultado = `Olá, ${nome}!` + ` Sua idade é de ${idade}` + ` anos` + ` e a linguagem de programação que você está estudando é: ${linguagem}.`;
+alert(resultado);
+
+const estudar = prompt("Você gosta de estudar " + `${linguagem}` + "?" + " Responda com o número 1 para SIM ou 2 para NÃO.");
+if (estudar == 1) {
+  alert (`Muito bom! Continue estudando e você terá muito sucesso.`);
+}
+else {
+  alert(`Ahh que pena... Já tentou aprender outras linguagens?`);
+}
