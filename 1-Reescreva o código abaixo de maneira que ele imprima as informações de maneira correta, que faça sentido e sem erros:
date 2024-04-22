@@ -1,0 +1,86 @@
+console.log('===========================================================================================================================');
+console.log('Reescreva o código abaixo de maneira que ele imprima as informações de maneira correta, que faça sentido e sem erros:')
+console.log('>>> Código')
+console.log('let numeroUm = 1')
+console.log("let stringUm = '1'")
+console.log('let numeroTrinta = 30')
+console.log("let stringTrinta = '30'")
+console.log('let numeroDez = 10')
+console.log("let stringDez = '10'")
+console.log('if (COMPARAR O numeroUm e a stringUm) {')
+console.log("console.log('As variáveis numeroUm e stringUm tem o mesmo valor, mas tipos diferentes')")
+console.log('} else {')
+console.log("console.log('As variáveis numeroUm e stringUm não tem o mesmo valor')")
+console.log('}')
+
+console.log('if (COMPARAR O numeroTrinta e a stringTrinta) {')
+console.log("console.log('As variáveis numeroTrinta e stringTrinta tem o mesmo valor e mesmo tipo')")
+console.log('} else {')
+console.log(" console.log('As variáveis numeroTrinta e stringTrinta não tem o mesmo tipo')")
+console.log('}')
+
+console.log('if (COMPARAR O numeroDez e a stringDez) {')
+console.log("console.log('As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos diferentes')")
+console.log('} else {')
+console.log(" console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')")
+console.log('}')
+
+console.log('===========================================================================================================================');
+
+let numero = 1;
+let stringUm = '1';
+let numeroTrinta = 30;
+let stringTrinta = '30';
+let numeroDez = 10;
+let stringDez = '10';
+
+console.log('O número inteiro é:', numero);
+console.log('A stringUm é uma string:', stringUm);
+console.log('O numeroTrinta inteiro é:',numeroTrinta);
+console.log('A stringTrinta é uma string:',stringTrinta);
+console.log('O numeroDez inteiro é:',numeroDez);
+console.log('A stringDez é uma string:',stringDez);
+console.log ('');
+
+console.log('======================================================================');
+console.log('============== COMPARANDO O NÚMERO 1 COM A STRING 1 ================');
+console.log('======================================================================');
+if (numero == stringUm) {
+    console.log ('As variáveis numeroUm e stringUm tem o mesmo valor, mas tipos diferentes')
+}
+else {
+    console.log('As variáveis numeroUm e stringUm não tem o mesmo valor')
+}
+console.log('======================================================================');
+console.log('========== VERIFICANDO SE O NÚMERO 1 É POSITIVO OU NEGATIVO ============');
+console.log('======================================================================');
+if (numero > 0) {
+    console.log ('O número é positivo')
+}
+else {
+    console.log('O número é negativo')
+}
+
+console.log('======================================================================');
+console.log('============== COMPARANDO O NÚMERO 30 COM A STRING 30 ================');
+console.log('======================================================================');
+if( numeroTrinta === stringTrinta){
+    console.log('As variáveis numeroTrinta e stringTrinta tem o mesmo valor e mesmo tipo')
+}
+else {
+    console.log('As variáveis numeroTrinta e stringTrinta não tem o mesmo tipo')
+}
+
+console.log('======================================================================');
+console.log('============== COMPARANDO O NÚMERO 10 COM A STRING 10 ================');
+console.log('======================================================================');
+if( numeroDez == stringDez){
+    console.log('As variáveis numeroDez e stringDez tem o mesmo valor, mas tipos diferentes')
+} else {
+  console.log('As variáveis numeroDez e stringDez não tem o mesmo valor')
+}
+if( numeroDez === stringDez){
+    console.log('As variáveis numeroTrinta e stringTrinta tem o mesmo valor e mesmo tipo')
+} else {
+    console.log('As variáveis numeroTrinta e stringTrinta não tem o mesmo tipo')
+}
